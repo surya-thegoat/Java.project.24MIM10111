@@ -1,0 +1,9 @@
+@startuml
+actor User
+rectangle System {
+  User --> (Register/Login)
+  User --> (Log Meal)
+  User --> (View Dashboard)
+  User --> (Get Recommendation)
+}
+@enduml

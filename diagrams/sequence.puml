@@ -1,0 +1,9 @@
+@startuml
+User -> Client: Open app
+Client -> Server: POST /users/{uid}/meals
+Server -> DB: store meal
+Server -> Client: 200 OK
+Client -> Server: GET /users/{uid}/meals/{date}/summary
+Server -> DB: aggregate
+Server -> Client: totals + risk
+@enduml

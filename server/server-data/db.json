@@ -1,0 +1,19 @@
+{
+  "foodItems": [
+    {
+      "name": "Cooked Rice (1 cup)",
+      "serving": "1 cup",
+      "calories": 200,
+      "protein_g": 4,
+      "iron_mg": 0.8
+    },
+    {
+      "name": "Lentils (1 cup cooked)",
+      "serving": "1 cup",
+      "calories": 230,
+      "protein_g": 18,
+      "iron_mg": 6.6
+    }
+  ],
+  "meals": {}
+}
